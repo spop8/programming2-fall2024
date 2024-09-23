@@ -1,0 +1,32 @@
+.odd{
+	background-color: #f7adbb;
+	font-family: "Verdana"
+}
+#two{
+	color: #0000ff;
+	font-size: 36px;
+	font-family: "Dejavu Sans";
+}
+
+#four{
+	background-color: #a5f459;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: Verdana, sans-serif;
+	
+}
+
+#third{
+	font-size: 24px;
+}
+
+.border{
+	border: dotted;
+}
+
+#seven {
+	border-color: #ff4500;
+	font-family: "Amatic SC";
+	font-size: 40px
+
+}

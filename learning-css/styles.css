@@ -1,0 +1,33 @@
+body {
+	background-color: pink;
+	
+}
+h1 {
+	color: #c22c8b;
+	border: 6px double hotpink; 
+}
+p {
+	color: #ed1eec;
+	font-family: monospace;
+	font-size: x-large;
+	font-weight: 900;
+	border: 6px solid #ff002d
+}
+
+.alert{
+	color: red;
+	font-weight: 400;
+	font-size: 32;
+}
+
+#para-2 {
+	color: green;
+	border: solid 6px red;
+	
+}
+
+#para-3 {
+	color: yellow;
+	border: dashed 4px blue;
+	font-size: 32;
+}
