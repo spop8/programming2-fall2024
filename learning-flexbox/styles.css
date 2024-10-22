@@ -4,16 +4,17 @@
 	background-color: green;
 	border: blue 3px solid;
 	text-align: center;
-	margin: 10px;
+	/*margin: 5px;*/
 }
 
 .flex-container {
 	border: red 3px solid;
 	height: 400px;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
 	align-items: flex-start;
+	gap: 10px 20px;
 	
 }
 
