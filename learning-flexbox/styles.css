@@ -9,7 +9,17 @@
 
 .flex-container {
 	border: red 3px solid;
+	height: 400px;
 	display: flex;
 	flex-direction: row;
-	justify-content: ;
+	justify-content: space-around;
+	align-items: flex-start;
+	
 }
+
+/* 
+ * justify content: flex-start, flex-end, center, space-around, space-between, space evenly
+ * flex-direction: row, row-reverse, column, column-reverse
+ * align-items: flex-start, flex-end, center, stretch, baseline --> relates to secondary axis
+
+*/
