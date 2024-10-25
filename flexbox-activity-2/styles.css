@@ -20,7 +20,7 @@ body {
 }
 
 .profile-image {
-	background: rebeccapurple;
+	background: pink;
 	box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
 	border-radius: 50%;
 	width: 48px;
@@ -28,7 +28,7 @@ body {
 }
 
 .logo {
-	color: rebeccapurple;
+	color: deeppink;
 	font-size: 32px;
 	font-weight: 900;
 	font-style: italic;
@@ -37,7 +37,7 @@ body {
 button {
 	border: none;
 	border-radius: 8px;
-	background: rebeccapurple;
+	background: hotpink;
 	color: white;
 	padding: 8px 24px;
 }
@@ -45,7 +45,7 @@ button {
 a {
 	/* this removes the line under our links */
 	text-decoration: none;
-	color: rebeccapurple;
+	color: pink;
 }
 
 ul {
