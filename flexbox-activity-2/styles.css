@@ -70,6 +70,7 @@ ul {
 }
 .gallery {
 	display: flex;
+	justify-content: space-between;
 }
 .description {
 	display: flex;
