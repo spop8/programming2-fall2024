@@ -7,8 +7,7 @@ body {
 	background: #eee;
 	font-family: Besley, serif;
 	height: 100vh;
-	display: flex;
-	flex-direction: column;
+	overflow: hidden;
 }
 
 .header {
@@ -67,14 +66,27 @@ ul {
 
 .content {
 	display: flex;
+	flex-direction: row;
+	height: calc(100vh - 80px);
 }
 .gallery {
 	display: flex;
-	justify-content: space-between;
+	flex-direction: row;
+	flex: 2 1 400px;
+	gap: 20px;
+	overflow-y: scroll;
+	border: solid 2px pink;
+	border-radius: 10px;
 }
 .description {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	flex: 1 1 400px;
+	padding: 20px;
+	border: solid 2px pink;
+	margin: 10px;
+	border-radius: 10px;
 }
 
 .item {
@@ -86,10 +98,28 @@ ul {
 .column {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
+	gap: 20px;
+	flex: 1;
 }
 .image {
-	width: 200px;
+	/*
+	width: 280px;
+	height: 280px;
+	*/
+	max-width: 100%;
+	height: auto;
 }
 .label {
+}
+
+#profilepic {
+	width: 80%;
+	flex-grow: 3;
+}
+
+#more-info {
+	background-color: lightgray;
+	height: 200px;
+	width: 100%;
+	border-radius: 15px;
 }
