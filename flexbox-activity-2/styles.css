@@ -123,3 +123,6 @@ ul {
 	width: 100%;
 	border-radius: 15px;
 }
+#scroll {
+	overflow-y: scroll;
+}
