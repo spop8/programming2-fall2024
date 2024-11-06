@@ -68,6 +68,7 @@ ul {
 	display: flex;
 	flex-direction: row;
 	height: calc(100vh - 80px);
+	background-color: #ffeef1;
 }
 .gallery {
 	display: flex;
@@ -77,6 +78,7 @@ ul {
 	overflow-y: scroll;
 	border: solid 2px pink;
 	border-radius: 10px;
+	margin: 10px;
 }
 .description {
 	display: flex;
@@ -123,6 +125,68 @@ ul {
 	width: 100%;
 	border-radius: 15px;
 }
-#scroll {
+.scroll {
+	display: flex;
+	flex-direction: column;
+	align-items: space-evenly;
 	overflow-y: scroll;
+	border: solid 2px pink;
+	width: 100%;
+	height: calc(95vh - 70px);
+	background-color: #ffeef1;
+}
+
+.flower {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: pink;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+.column2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 10px;
+}
+.image2 {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	align-items: flex-end;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.text {
+	font-size: 25px;
+	font-family: "Courier New", "Arial Narrow Bold", fantasy;
+	font-weight: bolder;
+}
+
+h1 {
+	color: hotpink;
+	margin-left: 10px;
+}
+#moreinfoline {
+	display: flex;
+	flex-direction: row;
+}
+ul {
+	display: flex;
+	flex-direction: column;
+}
+.images {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+#list {
+	display: flex;
+	flex-direction: row;
+}
+.image{
+	border-radius: 100px;
 }
