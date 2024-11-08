@@ -1,0 +1,19 @@
+h1 {
+	display: flex;
+	justify-content: center;
+	font-family: Helvetica;
+}
+button {
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+}
+#start {
+	display: flex;
+	justify-content: center;
+}
+#stats {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
