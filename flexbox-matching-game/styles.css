@@ -17,3 +17,20 @@ button {
 	justify-content: center;
 	gap: 20px;
 }
+#background {
+	background-color: aliceblue;
+}
+.words {
+	background-color: skyblue;
+	width: 120px;
+	height: 80px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
