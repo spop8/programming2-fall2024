@@ -19,6 +19,7 @@ button {
 }
 #background {
 	background-color: aliceblue;
+	padding: 5px 30px 30px 30px;
 }
 .words {
 	background-color: skyblue;
@@ -33,4 +34,31 @@ button {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
+}
+#row {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+}
+#category {
+	font-size: 16px;
+	padding: 5px;
+	margin: 10px 0;
+	border-radius: 5px;
+	background-color: skyblue;
+}
+#lascomidas {
+	background-color: green;
+}
+#lasfrutas {
+	background-color: blue;
+}
+#lacarne {
+	background-color: red;
+}
+#otrascomidas {
+	background-color: lightpink;
+}
+#lasbebidas {
+	background-color: lightskyblue;
 }
