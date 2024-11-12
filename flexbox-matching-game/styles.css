@@ -19,25 +19,28 @@ button {
 }
 #background {
 	background-color: aliceblue;
-	padding: 5px 30px 30px 30px;
+	padding: 5px 10% 30px 10%;
 }
 .words {
 	background-color: skyblue;
-	width: 120px;
-	height: 80px;
 	border-radius: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	height: 80px;
+	flex-basis: 10rem;
 }
-.column {
+.words:hover {
+	box-shadow: 2px 2px darkblue;
+}
+#row {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 }
-#row {
+.column {
 	display: flex;
-	gap: 10px;
+	gap: 60px;
 	justify-content: center;
 }
 #category {
