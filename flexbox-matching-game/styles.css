@@ -27,18 +27,19 @@ button {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 80px;
+	height: 120px;
 	flex-basis: 10rem;
+	padding: 2px;
 }
 .words:hover {
 	box-shadow: 2px 2px darkblue;
 }
-#row {
+#column {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 }
-.column {
+.row {
 	display: flex;
 	gap: 60px;
 	justify-content: center;
@@ -47,7 +48,7 @@ button {
 	font-size: 16px;
 	padding: 5px;
 	margin: 10px 0;
-	border-radius: 5px;
+	border-radius: 25px;
 	background-color: skyblue;
 }
 #lascomidas {
@@ -64,4 +65,10 @@ button {
 }
 #lasbebidas {
 	background-color: lightskyblue;
+}
+#image1 {
+	height: 80px;
+}
+#image2 {
+	height: 80px;
 }
