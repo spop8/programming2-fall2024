@@ -30,6 +30,8 @@ button {
 	height: 120px;
 	flex-basis: 10rem;
 	padding: 2px;
+	max-width: 100%;
+	font-size: 20px;
 }
 .words:hover {
 	box-shadow: 2px 2px darkblue;
@@ -68,7 +70,15 @@ button {
 }
 #image1 {
 	height: 80px;
+	max-width: 100%;
+	box-shadow: none;
 }
 #image2 {
 	height: 80px;
+	max-width: 100%;
+	box-shadow: none;
+}
+
+button:hover {
+	box-shadow: 3px 3px darkblue;
 }
