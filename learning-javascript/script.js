@@ -1,3 +1,9 @@
+function reveal() {
+	const mySpan = document.getElementById("name");
+	mySpan.innerText = "Solena";
+	//alert("This works!");
+}
+
 //const myName = "Solena";
 //let age = 16;
 //
@@ -15,9 +21,3 @@
 //
 ////^ called type coercion
 ////instead of int or float to convert we use number() for ints and deci
-
-function reveal() {
-	const mySpan = document.getElementById("name");
-	mySpan.innerText = "Solena"
-	//alert("This works!");
-}
