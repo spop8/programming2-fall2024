@@ -24,4 +24,9 @@ function generate() {
 	document.getElementById("v2").innerText = v2;
 	document.getElementById("n2").innerText = n2;
 	document.getElementById("n3").innerText = n3;
+
+	document.getElementById("madlib").style.display = "block";
+	document.getElementById("madlib").style.padding = "10px";
+	document.getElementById("madlib").style.fontSize = "25px";
+	document.getElementById("whole").style.background = "lightskyblue";
 }

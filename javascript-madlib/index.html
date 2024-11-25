@@ -6,7 +6,8 @@
 		<link rel="stylesheet" href="styles.css" />
 		<script src="script.js"></script>
 	</head>
-	<body style="background-color: pink">
+
+	<body style="background-color: pink" id="whole">
 		<h1>Solena's Madlib</h1>
 		<p>Fill out the fields below and click "Generate Story" to create your madlib</p>
 
@@ -35,7 +36,7 @@
 		<input type="text" id="c1input" placeholder="Enter a color" />
 
 		<label for="v1input">Verb: </label>
-		<input type="text" id="p3input" placeholder="Enter a noun" />
+		<input type="text" id="v1input" placeholder="Enter a noun" />
 
 		<label for="v2input">Verb: </label>
 		<input type="text" id="v2input" placeholder="Enter a verb" />
@@ -49,10 +50,11 @@
 		<button onclick="generate()">Generate</button>
 		<p id="madlib">
 			Once upon a time there was a <span id="a1"></span> <span id="n1"></span>. Nearby inside a
-			<span id="a2"></span> house lived a young girl named <span id="p1"></span>. She was a
-			<span id="a4"></span> child who was always willing to help her <span id="a5"></span> neighbors. One day she
-			stumbled upon a <span id="c1"></span> frog. To her surprise the frog could <span id="v1"></span>. She was
-			granted 2 <span id="v2"></span>. She got <span id="n2"></span> and <span id="n3"></span>.
+			<span id="a2"></span> house lived a young girl named <span id="p1"></span> who had a <span id="a3"></span>.
+			She was a <span id="a4"></span> child who was always willing to help her <span id="a5"></span> neighbors.
+			One day she stumbled upon a <span id="c1"></span> frog. To her surprise the frog could
+			<span id="v1"></span>. She was granted 2 <span id="v2"></span>. She got <span id="n2"></span> and
+			<span id="n3"></span>.
 		</p>
 	</body>
 </html>
