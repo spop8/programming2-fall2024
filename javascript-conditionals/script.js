@@ -22,17 +22,58 @@
 //	alert("You need to study more 📚");
 //}
 // and = && or = ||
-let temp = 28;
-let condition = "sunny";
+//let temp = 70;
+//let condition = "cloudy";
+//
+//if (temp >= 70 && condition == "sunny") {
+//	alert("You should wear a tshirt");
+//} else if (temp > 40 && (condition == "rainy" || condition == "stormy")) {
+//	alert("You should wear a raincoat");
+//} else if (temp <= 30 && condition == "snowy") {
+//	alert("You should wear a winter coat");
+//} else if (temp > 30 && temp < 50) {
+//	alert("You should wear a coat");
+//} else if (temp >= 50 && temp < 70) {
+//	alert("You should wear a hoodie");
+//} else {
+//	alert("You should pick what you want :)");
+//}
 
-if (temp >= 70 && condition == "sunny") {
-	alert("You should wear a tshirt");
-} else if (temp > 40 && (condition == "rainy" || condition == "stormy")) {
-	alert("You should wear a raincoat");
-} else if (temp <= 30 && condition == "snowy") {
-	alert("You should wear a winter coat");
-} else if (temp > 30 && temp < 50) {
-	alert("You should wear a coat");
-} else {
-	alert("You should wear a hoodie");
+//let username = "";
+//let password = "";
+//
+//if (username == "" && password == "") {
+//	alert("You should wear a tshirt");
+//} else if (username == "" && password != "") {
+//	alert("Your password is incorrect");
+//} else if (username != "" && password == "") {
+//	alert("You username is incorrect");
+//} else if (temp > 30 && temp < 50) {
+//	alert("You should wear a coat");
+//} else if (temp >= 50 && temp < 70) {
+//	alert("You should wear a hoodie");
+//} else {
+//	alert("You should pick what you want :)");
+//}
+
+function login() {
+	let username = "fedora_the_explorer";
+	let password = "password";
+
+	if (username == "fedora_the_explorer" && password == "password") {
+		document.getElementById("o1").innerText = "You have been logged in";
+		document.getElementById("o1").style.color = "green";
+	} else if (username == "fedora_the_explorer" && password != "password") {
+		document.getElementById("o1").innerText = "Your password is incorrect";
+		document.getElementById("o1").style.color = "red";
+	} else if (username != "fedora_the_explorer" && password == "password") {
+		document.getElementById("o1").innerText = "Your username is incorrect";
+		document.getElementById("o1").style.color = "red";
+	} else if (username != "fedora_the_explorer" && password != "password") {
+		document.getElementById("o1").innerText = "Please enter your username and password";
+		document.getElementById("o1").style.color = "red";
+	} else {
+		document.getElementById("o1").innerText = "Your username and password are incorrect";
+		document.getElementById("o1").style.color = "red";
+	}
 }
