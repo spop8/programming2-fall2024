@@ -57,20 +57,22 @@
 //}
 
 function login() {
-	let username = "fedora_the_explorer";
-	let password = "password";
+	const username1 = document.getElementById("u1").value;
+	document.getElementById("u1").innerText = username1;
+	const password1 = document.getElementById("p1").value;
+	document.getElementById("p1").innerText = password1;
 
-	if (username == "fedora_the_explorer" && password == "password") {
+	if (username1 == "fedora_the_explorer" && password1 == "password") {
 		document.getElementById("o1").innerText = "You have been logged in";
 		document.getElementById("o1").style.color = "green";
-	} else if (username == "fedora_the_explorer" && password != "password") {
+	} else if (username1 == "fedora_the_explorer" && password1 != "password") {
 		document.getElementById("o1").innerText = "Your password is incorrect";
 		document.getElementById("o1").style.color = "red";
-	} else if (username != "fedora_the_explorer" && password == "password") {
+	} else if (username1 != "fedora_the_explorer" && password1 == "password") {
 		document.getElementById("o1").innerText = "Your username is incorrect";
 		document.getElementById("o1").style.color = "red";
-	} else if (username != "fedora_the_explorer" && password != "password") {
-		document.getElementById("o1").innerText = "Please enter your username and password";
+	} else if (username1 != "fedora_the_explorer" && password1 != "password") {
+		document.getElementById("o1").innerText = "Incorrect username and password. Please try again.";
 		document.getElementById("o1").style.color = "red";
 	} else {
 		document.getElementById("o1").innerText = "Your username and password are incorrect";
