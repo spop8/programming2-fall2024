@@ -60,4 +60,5 @@ function generate() {
 	let name = first + " " + middle + "" + last;
 
 	document.getElementById("name").innerText = name;
+	document.getElementById("generatedname").style.display = "flex";
 }
