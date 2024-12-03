@@ -1,0 +1,50 @@
+body {
+	background-color: pink;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+#background {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffdde3;
+	border-radius: 10px;
+	font-size: 30px;
+	height: 280px;
+	padding: 100px 0;
+	width: 400px;
+}
+input,
+select {
+	width: 270px;
+	padding: 12px;
+	margin: 10px 0;
+	border-radius: 6px;
+	border: 1px solid pink;
+	font-size: 25px;
+}
+
+button {
+	background-color: aliceblue;
+	font-size: 25px;
+	border-radius: 6px;
+}
+
+#age {
+	width: 250px;
+}
+
+#name {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	font-size: 30px;
+	height: 100px;
+	width: 400px;
+	background-color: #ffdde3;
+}
