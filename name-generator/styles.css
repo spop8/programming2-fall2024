@@ -17,6 +17,7 @@ body {
 	height: 280px;
 	padding: 100px 0;
 	width: 400px;
+	box-shadow: -4px 4px #f4aab7;
 }
 input,
 select {
@@ -47,4 +48,8 @@ button {
 	height: 100px;
 	width: 400px;
 	background-color: #ffdde3;
+	box-shadow: -4px 4px #f4aab7;
+}
+#generatedname {
+	display: none;
 }
