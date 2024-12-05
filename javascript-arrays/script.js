@@ -29,19 +29,19 @@ alert(groceries);
 */
 
 let items = ["phone", "computer", "book"];
-alert(items);
+console.log(items);
 items.push("pencil", "highlighter"); // add two items at end
-alert(items);
+console.log(items);
 items.pop(); // remove last item
-alert(items);
+console.log(items);
 items.splice(1, 0, "glasses"); // add new item to second place
-alert(items);
+console.log(items);
 items.splice(2, 1); // remove third item
-alert(items);
+console.log(items);
 
 let numbers = ["1", "2", "3"];
-alert(numbers);
+console.log(numbers);
 numbers.splice(0, 0, "4"); // add number at start
-alert(numbers);
+console.log(numbers);
 numbers.splice(1, 1, "6"); // replace second number
-alert(numbers);
+console.log(numbers);
