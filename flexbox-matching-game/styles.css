@@ -20,6 +20,12 @@ button {
 #background {
 	background-color: aliceblue;
 	padding: 5px 10% 30px 10%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 1;
+	max-height: 100%;
 }
 .words {
 	background-color: skyblue;
@@ -27,7 +33,7 @@ button {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 120px;
+	height: auto;
 	flex-basis: 10rem;
 	padding: 2px;
 	max-width: 100%;
@@ -72,11 +78,14 @@ button {
 	height: 80px;
 	max-width: 100%;
 	box-shadow: none;
+	flex-shrink: 1;
+
 }
 #image2 {
 	height: 80px;
 	max-width: 100%;
 	box-shadow: none;
+	flex-shrink: 1;
 }
 
 button:hover {

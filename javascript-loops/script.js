@@ -34,3 +34,4 @@ for (let i = 0; i < score.length; i++) {
 		score.splice(i, 1, "retake");
 	}
 }
+console.log(score);
