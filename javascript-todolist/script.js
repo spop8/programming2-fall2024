@@ -18,15 +18,32 @@ function addTask() {
 }
 
 function removeTask() {
-	let remove = prompt("Which number task do you want to remove: ");
-	let num = remove - 1;
+	let taskFound = false;
+	let task = prompt("Which task do you want to remove: ");
+	task = task.toLowerCase;
+
 	for (let i = 0; i < tasks.length; i++) {
-		tasks.splice(num, 1);
+		if (tasks[i].toLowerCase() === task) {
+			tasks.splice(i, 1);
+			taskFound = true;
+		}
 	}
+	if (!taskFound) {
+		alert("task not found");
+	}
+
 	showTasks();
 }
 
 function clearTasks() {
 	tasks = [];
 	showTasks();
+}
+
+function prioritize() {
+	let task = prompt("");
+	let taskFound = false;
+	let taskList = document.getElementById("task-list");
+	let listItems = taskList.getElementsByTagName("li");
+	task = task.toLowerCase();
 }
