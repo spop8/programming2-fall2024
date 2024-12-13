@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		{ word: "el almuerzo", match: "lunch" },
 		{ word: "el/la camarero/a", match: "waiter" },
 		{ word: "el desayuno", match: "breakfast" },
-		{ word: "la sección de (no) fumar", match: "(no) smoking section" },
+		{ word: "la sección de (no) fumar", match: "(non) smoking section" },
 		{ word: "la cena", match: "dinner" },
 		{ word: "los entremeses", match: "appetizers" },
 		{ word: "la cuenta", match: "check" },
@@ -85,4 +85,41 @@ document.addEventListener("DOMContentLoaded", () => {
 		{ word: "el té (helado)", match: "(iced) tea" },
 		{ word: "el vino (blanco/tinto)", match: "(white/red) wine" }
 	];
+
+	let cards = document.getElementsByClassName("cards");
+	console.log(cards);
+
+	function shuffleArray(array) {
+		for (let i = array.length - 1; i > 0; i--) {
+			// Generate a random index from 0 to i
+			const j = Math.floor(Math.random() * (i + 1));
+			// Swap elements at indices i and j
+			[array[i], array[j]] = [array[j], array[i]];
+		}
+		return array;
+	}
+
+	function shuffleAssign() {
+		// shuffle list of pairs
+		let shuffledPairs = shuffleArray(pairsComida);
+		console.log(shuffledPairs);
+
+		//create a new array for selected pairs this round
+		let cardPairs = [];
+
+		//add the first cards.length/2 pairs with word and match to new array
+		for (let i = 0; i < cards.length / 2; i++) {
+			cardPairs.push(shuffledPairs[i].word);
+			cardPairs.push(shuffledPairs[i].match);
+		}
+		console.log(cardPairs);
+
+		//shuffle that array
+		cardPairs = shuffleArray(cardPairs);
+
+		// iterate over that array to assign cards
+	}
+	shuffleAssign();
 });
+
+// give each pair a number and then randomly generate the pairs to fill the board, and shuffle the board so the cards in the pairs are not right next to each other
