@@ -94,3 +94,6 @@ button {
 button:hover {
 	box-shadow: 3px 3px darkblue;
 }
+.cards {
+	font-family: Arial, Helvetica, sans-serif;
+}
