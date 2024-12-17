@@ -97,3 +97,7 @@ button:hover {
 .cards {
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+.clicked {
+	background-color: dodgerblue;
+}
