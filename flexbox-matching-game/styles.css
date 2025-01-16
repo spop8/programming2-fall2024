@@ -22,13 +22,13 @@ button {
 }
 #background {
 	background-color: aliceblue;
-	padding: 5px 10% 30px 10%;
+	padding: 5px 10% 180px 10%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	flex-shrink: 1;
-	max-height: 100%;
+	max-height: 200%;
 }
 .words {
 	background-color: skyblue;
@@ -63,21 +63,6 @@ button {
 	border-radius: 25px;
 	background-color: skyblue;
 }
-#lascomidas {
-	background-color: green;
-}
-#lasfrutas {
-	background-color: blue;
-}
-#lacarne {
-	background-color: red;
-}
-#otrascomidas {
-	background-color: lightpink;
-}
-#lasbebidas {
-	background-color: lightskyblue;
-}
 #image1 {
 	height: 80px;
 	max-width: 100%;
@@ -100,4 +85,7 @@ button:hover {
 
 .clicked {
 	background-color: dodgerblue;
+}
+#option {
+	margin-top: 20px;
 }

@@ -8,26 +8,26 @@
 		<link rel="stylesheet" href="styles.css" />
 		<script src="script.js"></script>
 	</head>
-	<body>
+	<body onload="shuffleAssign()">
 		<div id="background">
 			<!--overall-->
-			<h1>Matching Game</h1>
+			<h1 id="title">Matching Game</h1>
+			<h2 id="yw"></h2>
 			<div id="start">
 				<!--start game-->
-				<button>Start Game</button>
+				<button id="restart">Start Game</button>
 			</div>
 			<div id="stats">
 				<!--score, attempts, time-->
-				<p id= score>Score:</p>
-				<p>Attempts:</p>
+				<p id="score">Score:</p>
 				<p>Category:</p>
 				<!-- Dropdown menu for category selection -->
 				<select id="category">
-					<option value="index.html" id="lascomidas">Las Comidas</option>
-					<option value="frutas.html" id="lasfrutas">Las Frutas y Las Verduras</option>
-					<option value="carne.html" id="lascarne">La Carne y el Pescado</option>
-					<option value="otras.html" id="otrascomidas">Otras Comidas</option>
-					<option value="bebidas.html" id="lasbebidas">Las Bebidas</option>
+					<option value="comidas" selected>Las Comidas</option>
+					<option value="frutas">Las Frutas y Las Verduras</option>
+					<option value="carne">La Carne y El Pescado</option>
+					<option value="otras">Otras Comidas</option>
+					<option value="bebidas">Las Bebidas</option>
 				</select>
 			</div>
 			<div id="column">
@@ -52,7 +52,7 @@
 					</div>
 					<div class="words cards">
 						<!--row 1-->
-						<img class="words" src="images/rico.png" />
+						<img class="words" src="images/delicious.png" />
 					</div>
 					<div class="words cards">
 						<!--row 1-->
@@ -112,7 +112,7 @@
 					</div>
 					<div class="words cards">
 						<!--row 1-->
-						<img class="words" src="images/smoke.jpg" />
+						<img class="words" src="images/smoke.png" />
 					</div>
 				</div>
 
